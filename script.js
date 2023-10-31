@@ -31,20 +31,20 @@ musicaFocoInput.addEventListener('change', () => {
 
 focoBt.addEventListener('click', () => {
     alterarContexto('foco')
-    contagemMinutos = 1500;
+    contagemMinutos = 3000;
     tempoTela()
     focoBt.classList.add('active')
 })
 
 curtoBt.addEventListener('click', () => {
-    contagemMinutos = 300;
+    contagemMinutos = 600;
     tempoTela()
     alterarContexto('descanso-curto')
     curtoBt.classList.add('active')
 })
 
 longoBt.addEventListener('click', () => {
-    contagemMinutos = 900;
+    contagemMinutos = 3600;
     tempoTela()
     alterarContexto('descanso-longo')
     longoBt.classList.add('active')

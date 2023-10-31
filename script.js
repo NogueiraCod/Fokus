@@ -44,7 +44,7 @@ curtoBt.addEventListener('click', () => {
 })
 
 longoBt.addEventListener('click', () => {
-    contagemMinutos = 3600;
+    contagemMinutos = 3599;
     tempoTela()
     alterarContexto('descanso-longo')
     longoBt.classList.add('active')

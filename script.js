@@ -15,7 +15,7 @@ musica.loop = true
 let playMusic = new Audio('/sons/play.wav');
 let pauseMusic = new Audio('/sons/pause.mp3')
 let beepMusic = new Audio('/sons/beep.mp3')
-let contagemMinutos = 1500;
+let contagemMinutos = 3000;
 let intervaloID = null;
 
 
